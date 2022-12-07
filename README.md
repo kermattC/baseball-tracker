@@ -2,11 +2,14 @@
 Course project for CSCI 5520G
 
 For each of these programs they stop frame-by-frame. You can progress to the next frame with any key press.
+Instructions on running the code are given for relevant files. Depending on which version of python you use, you'll have to use either python or python3.
 
 ## project-pitch3-track.py
+* Run via: ``` python3 project-pitch3-track.py ``` r ```python project-pitch3-track.py ```
 * My best result. The ball is tracked for majority of its flight before it starts moving downwards, got 5 frames of tracking before it loses tracking, but regains another 2 or 3 frames before losing tracking again. I didn't show this in my presentation because the performance was worse then, but turns out I made a mistake and fixing it yielded better results.
 
 ## project-pitch2-track.py
+* Run via ``` python3 project-pitch-track.py ``` or ```python project-pitch-track.py ```
 * My second best result. The ball is tracked for 8 frames during its downwards movement.
 
 # Other Files
@@ -38,9 +41,7 @@ This file contains programs that I wrote while progressing to the final product.
 
 ###### lucas-kanade.py
 * Another demonstration of using lucas kanade. Looks prettier though. You can try running it via 
-```
-python3 lucas-kanade.py ../data/pitch.mp4
-```
+``` python lucas-kanade.py ../data/pitch.mp4 ``` or ``` python3 lucas-kanade.py ../data/pitch.mp4 ```
 
 ###### struct-similarity.py
 * Uses scikit-image's struct similarity method to track the differences between each frame. Looked promising but I couldn't figure out a way to filter out all the other bounding boxes, so I reached a dead end. Plus the paper I was reading that used this method didn't have any source code available.
