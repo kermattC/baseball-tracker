@@ -1,11 +1,11 @@
-# baseball-tracker
+# Baseball tracker for live broadcast videos
 Course project for CSCI 5520G
 
 For each of these programs they stop frame-by-frame. You can progress to the next frame with any key press.
-Instructions on running the code are given for relevant files. Depending on which version of python you use, you'll have to use either python or python3.
+Instructions on running the code are given for relevant files, and depending on which version of python you use you'll have to use either python or python3.
 
 ## project-pitch3-track.py
-* Run via: ``` python3 project-pitch3-track.py ``` r ```python project-pitch3-track.py ```
+* Run via: ``` python3 project-pitch3-track.py ``` or ```python project-pitch3-track.py ```
 * My best result. The ball is tracked for majority of its flight before it starts moving downwards, got 5 frames of tracking before it loses tracking, but regains another 2 or 3 frames before losing tracking again. I didn't show this in my presentation because the performance was worse then, but turns out I made a mistake and fixing it yielded better results.
 
 ## project-pitch2-track.py
@@ -13,6 +13,7 @@ Instructions on running the code are given for relevant files. Depending on whic
 * My second best result. The ball is tracked for 8 frames during its downwards movement.
 
 # Other Files
+I've also included some files that contain the videos themselves, other code I've written to work my way up to the final product and failure cases that I've encountered.
 
 ## data
 * The videos I used to test this project's method. 
@@ -48,8 +49,6 @@ This file contains programs that I wrote while progressing to the final product.
 
 ###### img-difference.py
 * similar to struct-similarity.py I couldn't find a way to filter out all the other bounding boxes, so this is another dead end
-
-
 
 ## failure-cases
 Programs I wrote but couldn't get things working
