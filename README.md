@@ -1,16 +1,28 @@
 # Baseball tracker for live broadcast videos
 Course project for CSCI 5520G
 
+# Requirements
+* python or python3
+* a method of displaying cv.imshow images. Since I developed this project via Windows Subsystem for Linux I installed XLaunch to display images and videos
+## Packages to import:
+* numpy
+* cv2
+* scipy
+* math
+* signal from scipy (might not be necessary)
+* These are not necessary to run the main programs, only the progress-programs and failure cases: scipy.ndimage, imutils, argparse, time, skimage.metrics
+
+
 For each of these programs they stop frame-by-frame. You can progress to the next frame with any key press.
 Instructions on running the code are given for relevant files, and depending on which version of python you use you'll have to use either python or python3.
 
-## project-pitch3-track.py
+## Best result: project-pitch3-track.py
 * Run via: ``` python3 project-pitch3-track.py ``` or ```python project-pitch3-track.py ```
-* My best result. The ball is tracked for majority of its flight before it starts moving downwards, got 5 frames of tracking before it loses tracking, but regains another 2 or 3 frames before losing tracking again. I didn't show this in my presentation because the performance was worse then, but turns out I made a mistake and fixing it yielded better results.
+* The ball is tracked for majority of its flight before it starts moving downwards, got 5 frames of tracking before it loses tracking, but regains another 2 or 3 frames before losing tracking again. I didn't show this in my presentation because the performance was worse then, but turns out I made a mistake and fixing it yielded better results.
 
-## project-pitch2-track.py
+## Second best result: project-pitch2-track.py
 * Run via ``` python3 project-pitch-track.py ``` or ```python project-pitch-track.py ```
-* My second best result. The ball is tracked for 8 frames during its downwards movement.
+* The ball is tracked for 8 frames during its downwards movement.
 
 # Other Files
 I've also included some files that contain the videos themselves, other code I've written to work my way up to the final product and failure cases that I've encountered.
