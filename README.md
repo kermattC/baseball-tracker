@@ -10,7 +10,7 @@ Course project for CSCI 5520G
 * scipy
 * math
 * signal from scipy (might not be necessary)
-* These are not necessary to run the main programs, only the progress-programs and failure cases: scipy.ndimage, imutils, argparse, time, skimage.metrics
+* The following are not necessary to run the main programs, only the progress-programs and failure cases: scipy.ndimage, imutils, argparse, time, skimage.metrics
 
 
 For each of these programs they stop frame-by-frame. You can progress to the next frame with any key press.
